@@ -57,16 +57,18 @@ export default function Sections() {
           <div className="row">
             <div className=" d-flex justify-content-center col-sm-6 col-xs-12 ">
               <div className="section2-left rounded text-start border mt-5 p-3 ">
-                <img src={section2img1} />
+                <div className="sec2img-div">
+                  <img src={section2img1} />
+                </div>
                 <h5 className="pt-3">Lending Solutions:</h5>
-                <p style={{ color: "black" }}>
-                  Digital Lending, Business Loans, Mid-market Lending
-                </p>
+                <p>Digital Lending, Business Loans, Mid-market Lending</p>
               </div>
             </div>
             <div className=" d-flex justify-content-center  col-sm-6 col-xs-12 ">
               <div className=" rounded mt-5 section2-right border p-3 text-start">
-                <img src={section2img2} />
+                <div className="sec2img-div">
+                  <img src={section2img2} />
+                </div>
                 <h5 className="pt-3">Serving Sectors:</h5>
                 <p>
                   Mid-Corporates, Large Corporations, Small Medium Enterprises,
@@ -88,7 +90,7 @@ export default function Sections() {
 
             <p className="ps-3">Digital</p>
           </div>
-          <button className="btn btn-default mt-5 mb-2">Apply Now</button>
+          <button className="  mt-5 p-2 rounded mb-2">Apply Now</button>
         </div>
         <div className="container-fluid">
           <div className="row">
@@ -114,21 +116,26 @@ export default function Sections() {
         </div>
       </section>
       <section className="section4 pb-5 pt-5">
-        <div className="p-5">
-          <h3 className="pb-3">How We Have Growm</h3>
-          <p>
-            Founded with the vision of bridging the gap between businesses and
-            the capital they need, C N M P has continually evolved to meet the
-            changing demands of the financial landscape. Today, we offer a wide
-            array of financial products tailored to mid-market enterprises,
-            SMEs, and large corporations.
-          </p>
+        <div className="p-5 d-flex justify-content-center">
+          <div>
+            <h3 className="pb-3">How We Have Grown</h3>
+            <p className="text-start">
+              Founded with the vision of bridging the gap between businesses and
+              the capital
+              <br />
+              they need, C N M P has continually evolved to meet the changing
+              demands of the financial landscape. Today, we
+              <br />
+              offer a wide array of financial products tailored to mid-market
+              enterprises, SMEs, and large corporations.
+            </p>
+          </div>
         </div>
       </section>
       <section className="section5">
         <div>
           <div className="bg-img d-none d-sm-block">
-            <h3 className="sec5-heading">WHAT WE STAND FOR</h3>
+            <h3 className="sec5-heading">What We Stand For</h3>
             <div className="row d-flex justify-content-center sec5-cards">
               <div className=" mt-3 col-xs-12 col-sm-3 card text-start">
                 <img src={sec5cardimg1} />
@@ -208,15 +215,15 @@ export default function Sections() {
       <section className="section6 pt-5">
         <div className="container " style={{}}>
           <div className="row">
-            <div className="col-sm-6 col-xs-12" style={{ marginTop: "50px" }}>
-              <img src={sec6img1} style={{ width: "90%" }} />
+            <div className="col-sm-6 col-xs-12 " style={{ marginTop: "50px" }}>
+              <img src={sec6img1} className="sec6-img" />
             </div>
-            <div className="col-sm-6 col-xs-12" style={{ marginTop: "100px" }}>
+            <div className="col-sm-6 col-xs-12" style={{ marginTop: "150px" }}>
               <div className="text-start" style={{ marginLeft: "20px" }}>
-                <h3>Vision for the future</h3>
+                <h3 className="mb-3">Vision for the future</h3>
                 <h6
                   className="text-muted"
-                  style={{ fontWeight: "200", fontSize: "larger" }}
+                  style={{ fontWeight: "400", fontSize: "larger" }}
                 >
                   To be India’s most trusted and efficient financial service
                   provider, enabling businesses to access the capital they need
@@ -226,12 +233,12 @@ export default function Sections() {
             </div>
           </div>
           <div className="row">
-            <div className="col-sm-6 col-xs-12" style={{ marginTop: "100px" }}>
+            <div className="col-sm-6 col-xs-12" style={{ marginTop: "150px" }}>
               <div style={{ marginLeft: "20px" }}>
                 <h3 className="text-start  ">What We Aim To Achieve</h3>
                 <h6
                   className="text-start text-muted"
-                  style={{ fontWeight: "200", fontSize: "larger" }}
+                  style={{ fontWeight: "400", fontSize: "larger" }}
                 >
                   To fuel the growth of 5,000+ enterprises by offering quick and
                   customized financial solutions, with a target credit flow of
@@ -240,7 +247,7 @@ export default function Sections() {
               </div>
             </div>
             <div className="col-sm-6 col-xs-12" style={{ marginTop: "50px" }}>
-              <img src={sec6img2} style={{ width: "90%" }} />
+              <img src={sec6img2} className="sec6-img" />
             </div>
           </div>
         </div>
@@ -359,7 +366,7 @@ export default function Sections() {
                 process, designed for both individuals and businesses
               </p>
               <div className="row sec9-card">
-                <div className="sec9-card1 col-sm col-xs-12 d-flex flex-column text-start card mt-5 p-5">
+                <div className="sec9-card1 col-sm col-xs-12 d-flex flex-column text-start card mt-5 ps-5 pe-5 pt-5">
                   <h3>Key Features</h3>
                   <p>Quick onlinee application</p>
                   <p>Instant approval</p>
@@ -367,7 +374,7 @@ export default function Sections() {
                   <p>Minimal documentation</p>
                 </div>
                 <div className="col-sm col-xs-12 d-flex flex-column text-start card mt-5 p-5">
-                  <h3>Industry Served</h3>
+                  <h3>Domains</h3>
                   <p>Quick onlinee application</p>
                   <p>Retail NBFC</p>
                 </div>
@@ -392,14 +399,14 @@ export default function Sections() {
                 </div>
                 <div className="sec10-card">
                   <div className="row">
-                    <div className=" sec10-card1 card col-sm col-xs-12 mt-3 mb-3 p-5 text-start">
+                    <div className=" sec10-card1 card col-sm-4 col-xs-12 mt-3 mb-3  p-4 text-start">
                       <h3 className=" mb-3">Key Features</h3>
                       <p>customizable loan term</p>
                       <p>Competitive interest rates</p>
                       <p>Tailored financial solutions</p>
                     </div>
-                    <div className="col-sm col-xs-12 card mt-3 mb-3 p-5 text-start d-flex flex-column">
-                      <h3>Industry Served</h3>
+                    <div className="col-sm-4 col-xs-12 card mt-3 mb-3 p-4  text-start d-flex flex-column ">
+                      <h3>Domains</h3>
                       <p>Mid-Corporates</p>
                       <p>Large Corporations</p>
                       <p>Small Enterprises</p>
@@ -431,17 +438,23 @@ export default function Sections() {
             </div>
             <div className="col-sm col-xs-12">
               <div className="sec11-card card  p-5 text-start">
-                <img src={sec11cardimg1} />
-                <h3>Customer Centric Approach</h3>
-                <p>
-                  We understand the specific needs of your business and offer
-                  tailored financial products to suit your goals
-                </p>
+                <div className="sec11img-div">
+                  <img src={sec11cardimg1} />
+                </div>
+                <div>
+                  <h3>Customer Centric Approach</h3>
+                  <p>
+                    We understand the specific needs of your business and offer
+                    tailored financial products to suit your goals
+                  </p>
+                </div>
               </div>
             </div>
             <div className="col-sm col-xs-12">
               <div className="sec11-card card  text-start p-5">
-                <img src={sec11cardimg2} />
+                <div className="sec11img-div">
+                  <img src={sec11cardimg2} />
+                </div>
                 <h3>Rapid Turnaround</h3>
                 <p>
                   We provide quick loan approvals and fast access to funds, with
@@ -453,7 +466,9 @@ export default function Sections() {
           <div className="row">
             <div className="col-sm col-xs-12">
               <div className="sec11-card card  text-start p-5">
-                <img src={sec11cardimg3} />
+                <div className="sec11img-div">
+                  <img src={sec11cardimg3} />
+                </div>
                 <h3>Diverse Product Portfolio</h3>
                 <p>
                   Our broad range of financial solutions ensures that you have
@@ -463,7 +478,9 @@ export default function Sections() {
             </div>
             <div className="col-sm col-xs-12">
               <div className="sec11-card card  text-start p-5">
-                <img src={sec11cardimg4} />
+                <div className="sec11img-div">
+                  <img src={sec11cardimg4} />
+                </div>
                 <h3>Tech-Driven processes</h3>
                 <p>
                   We leverage cutting-edge digital technology to make your
@@ -475,7 +492,9 @@ export default function Sections() {
             </div>
             <div className="col-sm col-xs-12">
               <div className="sec11-card card  text-start p-5">
-                <img src={sec11cardimg5} />
+                <div className="sec11img-div">
+                  <img src={sec11cardimg5} />
+                </div>
                 <h3>Ongoing support</h3>
                 <p>
                   We believe in continuous engagement, ensuring that our
@@ -485,15 +504,15 @@ export default function Sections() {
               </div>
             </div>
           </div>
-          <div className="row">
-            <div>
+          <div className="row" id="section11-bottom">
+            <div className="mt-5">
               <h3>CNMP Advantages</h3>
               <p>Get Ahead of the pack with CNMP's Unique Advantage </p>
             </div>
           </div>
           <div className="row">
             <div className="col-sm col-xs-12">
-              <div className="text-start ps-5">
+              <div className="text-start ps-5 m-5">
                 <div className="sec11-bottom d-flex justify-content-center">
                   <img src={sec11img1} />
                 </div>
@@ -506,7 +525,7 @@ export default function Sections() {
               </div>
             </div>
             <div className="col-sm col-xs-12">
-              <div className="text-start ps-5">
+              <div className="text-start ps-5 m-5">
                 <div className="sec11-bottom d-flex justify-content-center">
                   <img src={sec11img2} />
                 </div>
@@ -521,7 +540,7 @@ export default function Sections() {
             </div>
 
             <div className="col-sm col-xs-12">
-              <div className="text-start ps-5">
+              <div className="text-start ps-5 m-5">
                 <div className="sec11-bottom d-flex justify-content-center">
                   <img src={sec11img3} />
                 </div>
@@ -536,7 +555,7 @@ export default function Sections() {
           </div>
           <div className="row">
             <div className="col-sm col-xs-12">
-              <div className="text-start ps-5">
+              <div className="text-start ps-5 m-5">
                 <div className="sec11-bottom d-flex justify-content-center">
                   <img src={sec11img4} />
                 </div>
@@ -547,7 +566,7 @@ export default function Sections() {
               </div>
             </div>
             <div className="col-sm col-xs-12">
-              <div className="text-start ps-5">
+              <div className="text-start ps-5 m-5">
                 <div className="sec11-bottom d-flex justify-content-center ">
                   <img src={sec11img5} />
                 </div>
@@ -563,7 +582,7 @@ export default function Sections() {
 
             <div className="col-sm col-xs-12">
               <div>
-                <div className="text-start ps-5">
+                <div className="text-start ps-5 m-5">
                   <div className="sec11-bottom d-flex justify-content-center">
                     <img src={sec11img6} />
                   </div>
@@ -581,7 +600,7 @@ export default function Sections() {
           </div>
         </div>
       </section>
-      <section className="section12 pt-5 pb-5" id="section12">
+      <section className="section12 pt-5 pb-5">
         <div className="sec12-main p-5 pb-0 m-5 rounded ">
           <div className="row">
             <h3>Our Sourcing Partner</h3>
@@ -621,54 +640,66 @@ export default function Sections() {
                     <img src={sec12img1} /> Available for both Android and iOS
                   </span>
                 </p>
-                <button className="btn btn-default mb-3">Download Now</button>
+                <button className="p-2 rounded mb-3">Download Now</button>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="footer rounded-top">
+      <section className="footer rounded-top" id="footer">
         <div className="container-fluid">
           <div className="row p-5">
             <div className="col-sm col-xs-12">
               <div className="text-start">
-                <img src={footerimg1} className="mb-3" />
-                <p>
+                <img src={footerimg1} />
+                <p className="pt-5 pe-3 ">
                   Let’s Connect! If you have any questions or require
                   assistance, feel free to reach out to us.
                 </p>
               </div>
             </div>
             <div className="col-sm col-xs-12">
-              <div className="text-start d-flex flex-column">
+              <div className="text-start d-flex flex-column ">
                 <h3>Company</h3>
-                <a href="#section3">Get To Know Us</a>
-                <a href="#section8">Board Of Directors</a>
-                <a href="#section9">Lending Services </a>
-                <a href="#section11">Why CNMP stand Out</a>
-                <a href="#section12">CNMP Advantages</a>
+                <a className="pb-3 pt-3" href="#section3">
+                  Get To Know Us
+                </a>
+                <a className="pb-3" href="#section8">
+                  Board Of Directors
+                </a>
+                <a className="pb-3" href="#section9">
+                  Lending Services{" "}
+                </a>
+                <a className="pb-3" href="#section11">
+                  Why CNMP stand Out
+                </a>
+                <a className="pb-3" href="#section11-bottom">
+                  CNMP Advantages
+                </a>
               </div>
             </div>
             <div className="col-sm col-xs-12">
               <div className="text-start">
                 <h3>Contact us</h3>
-                <p>
+                <p className="pb-3 pt-3">
                   <i
                     class="fa-regular fa-envelope"
                     style={{ color: "#fafafa" }}
                   ></i>{" "}
                   Email: csharvinder@akasafin.com
                 </p>
-                <p>
+                <p className="pb-3">
                   <i
                     class="fa-solid fa-location-dot"
                     style={{ color: "#fafafa" }}
                   ></i>{" "}
-                  Registered Address: 70/A-32, Rama Road Industrial Area,
-                  Najafgarh Road,   New Delhi, Delhi, India - 110015
+                  Registered Address: 70/A-32,
+                  <br /> Rama Road Industrial Area, Najafgarh
+                  <br />
+                  Road,New Delhi, Delhi, India - 110015
                 </p>
-                <p>
+                <p className="pb-3">
                   <i
                     class="fa-solid fa-phone-volume"
                     style={{ color: "#fafafa" }}
@@ -681,7 +712,7 @@ export default function Sections() {
           <div className="row">
             <div className="footer-mid"></div>
           </div>
-          <div className="row pt-5 pb-3 text-center">
+          <div className="row pt-3 pb-3 text-center">
             <p>
               {" "}
               © 2024 C N M P Investments Private Limited. All rights reserved. 

@@ -14,13 +14,12 @@
 }
 
 .section1 img {
-  width: 90%;
+  width: 80%;
 }
 
 .section1-left h3 {
-  font-size: 48.1px;
+  font-size: 30.1px;
   font-weight: 500;
-  line-height: 62.53px;
 }
 
 .section2 {
@@ -29,15 +28,35 @@
 }
 
 .section2-left {
-  background-color: white;
-  color: #102c57;
   height: 250px;
   width: 80%;
+}
+
+.section2-left:hover {
+  background-color: white;
+  color: #102c57;
+}
+
+.section2-right:hover {
+  background-color: white;
+  color: #102c57;
 }
 
 .section2-right {
   height: 250px;
   width: 80%;
+}
+
+.sec2img-div img {
+  width: 80%;
+}
+
+.sec2img-div {
+  background-color: #102c57;
+  display: inline-block;
+
+  border-radius: 9px;
+  padding: 15px 0px 10px 10px;
 }
 
 .section3 {
@@ -51,7 +70,7 @@
 }
 
 .section3 img {
-  width: 100%;
+  width: 80%;
 }
 .sec3-border {
   border-right: 4px solid #102c57;
@@ -60,6 +79,12 @@
 .section3 button {
   color: white;
   background-color: #102c57;
+}
+
+.section3 button:hover {
+  padding: 15px 25px;
+  font-size: 18px;
+  transform: scale(1.1);
 }
 
 .section4 {
@@ -116,9 +141,6 @@
 .section6 h3 {
   color: #102c57;
 }
-.sec6-img {
-  width: 80%;
-}
 
 .section7 {
   background-color: #102c57;
@@ -149,6 +171,7 @@
 
 .sec9-card {
   position: absolute;
+  top: 35%;
 }
 
 .sec9-card h3 {
@@ -182,6 +205,7 @@
 .sec10-card {
   position: absolute;
   margin: 20px;
+  width: 100%;
 }
 
 .sec10-card1 {
@@ -193,8 +217,18 @@
 }
 
 .section11 img {
-  width: 15%;
-  padding-bottom: 10px;
+  width: 90%;
+}
+
+.sec11img-div {
+  width: 70px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9%;
+  padding: 10px;
+  margin-bottom: 10px;
 }
 
 .sec11-card {
@@ -242,6 +276,12 @@
   background-color: white;
   margin-top: 20px;
 }
+
+.section12 button:hover {
+  padding: 15px 25px;
+  font-size: 18px;
+  transform: scale(1.1);
+}
 .footer a {
   color: white;
   text-decoration: none;
@@ -269,15 +309,20 @@
   .section5 .card {
     width: 90%;
   }
+
+  .sec6-img {
+    width: 100%;
+  }
+
   .sec10-left {
     position: initial;
   }
   .sec10-card {
     position: initial;
-    margin: 0 20px 0 20px;
+    width: 80%;
   }
   .sec10-card1 {
-    margin: 0px;
+    margin: 0;
   }
   .sec9-card1 {
     margin: 0px;

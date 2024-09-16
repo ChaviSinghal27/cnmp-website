@@ -1,3 +1,12 @@
 .navbar {
   background-color: #f5f4f0;
 }
+
+.nav-item {
+  font-weight: 500;
+}
+
+.nav-item:hover {
+  color: "#102c57";
+  font-weight: 600;
+}

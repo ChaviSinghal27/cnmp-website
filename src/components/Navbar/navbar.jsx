@@ -28,23 +28,23 @@ export default function Navbar() {
             >
               <ul className="navbar-nav me-auto">
                 <li className="nav-item">
-                  <a href="#" className="nav-link p-3 ms-3">
+                  <a href="#section3" className="nav-link p-3 ms-3">
                     Get To Know Us
                   </a>
                 </li>
 
                 <li className="nav-item">
-                  <a href="#" className="nav-link p-3 ms-3">
+                  <a href="#section9" className="nav-link p-3 ms-3">
                     Lending Services
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="#" className="nav-link p-3 ms-3">
+                  <a href="#section11-bottom" className="nav-link p-3 ms-3">
                     CNMP Advantages
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="#" className="nav-link p-3 ms-3">
+                  <a href="#footer" className="nav-link p-3 ms-3">
                     Contact Us
                   </a>
                 </li>
