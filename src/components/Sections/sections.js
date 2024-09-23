@@ -368,14 +368,14 @@ export default function Sections() {
               <div className="row sec9-card">
                 <div className="sec9-card1 col-sm col-xs-12 d-flex flex-column text-start card mt-5 ps-5 pe-5 pt-5">
                   <h3>Key Features</h3>
-                  <p>Quick onlinee application</p>
+                  <p>Quick online application</p>
                   <p>Instant approval</p>
                   <p>Flexible repayment options</p>
                   <p>Minimal documentation</p>
                 </div>
                 <div className="col-sm col-xs-12 d-flex flex-column text-start card mt-5 p-5">
                   <h3>Domains</h3>
-                  <p>Quick onlinee application</p>
+                  <p>Quick online application</p>
                   <p>Retail NBFC</p>
                 </div>
               </div>
@@ -627,7 +627,7 @@ export default function Sections() {
                 <p>
                   <span>
                     <img src={sec12img1} />
-                    Real-time status updatess
+                    Real-time status update
                   </span>
                 </p>
                 <p>
