@@ -611,9 +611,13 @@ export default function Sections() {
             </p>
           </div>
           <div className="row">
-            <div className="col-sm col-xs-12">
-              <div>
-                <img src={sec12img2} className="sec12-img" />
+            <div className="col-sm col-xs-12 d-flex justify-content-center align-items-center">
+              <div className="sec12-left my-5">
+              <div className="card d-flex flex-column justify-content-center align-items-center px-5 py-3">
+                <img src={sec12img2}  style={{width:"60%"}} className="sec12-img pt-4" />
+              <h1 className="" style={{color:"#344EAD"}}>Abhi Cash</h1>
+              <p style={{color:"#344EAD"}}>Instant loans, simplifying your life</p>
+              </div>
               </div>
             </div>
             <div className="col-sm col-xs-12">

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Ramabhadra&display=swap');
+
 .sections {
   background-color: #f5f4f0;
 }
@@ -264,8 +266,10 @@
   background-color: #f5f4f0;
 }
 
-.sec12-img {
-  width: 70%;
+
+
+.sec12-left {
+ font-family:Baskervville;
 }
 .footer {
   background-color: #102c57;
