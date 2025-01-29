@@ -90,7 +90,9 @@ export default function Sections() {
 
             <p className="ps-3">Digital</p>
           </div>
-          <button className="  mt-5 p-2 rounded mb-2">Apply Now</button>
+          <a href="https://play.google.com/store/apps/details?id=com.abhicash.abhicash&hl=en">
+            <button className="  mt-5 p-2 rounded mb-2">Apply Now</button>
+          </a>
         </div>
         <div className="container-fluid">
           <div className="row">
@@ -613,11 +615,19 @@ export default function Sections() {
           <div className="row">
             <div className="col-sm col-xs-12 d-flex justify-content-center align-items-center">
               <div className="sec12-left my-5">
-              <div className="card d-flex flex-column justify-content-center align-items-center px-5 py-3">
-                <img src={sec12img2}  style={{width:"60%"}} className="sec12-img pt-4" />
-              <h1 className="" style={{color:"#344EAD"}}>Abhi Cash</h1>
-              <p style={{color:"#344EAD"}}>Instant loans, simplifying your life</p>
-              </div>
+                <div className="card d-flex flex-column justify-content-center align-items-center px-5 py-3">
+                  <img
+                    src={sec12img2}
+                    style={{ width: "60%" }}
+                    className="sec12-img pt-4"
+                  />
+                  <h1 className="" style={{ color: "#344EAD" }}>
+                    Abhi Cash
+                  </h1>
+                  <p style={{ color: "#344EAD" }}>
+                    Instant loans, simplifying your life
+                  </p>
+                </div>
               </div>
             </div>
             <div className="col-sm col-xs-12">
@@ -644,7 +654,9 @@ export default function Sections() {
                     <img src={sec12img1} /> Available for both Android and iOS
                   </span>
                 </p>
-                <button className="p-2 rounded mb-3">Download Now</button>
+                <a href="https://play.google.com/store/apps/details?id=com.abhicash.abhicash&hl=en">
+                  <button className="p-2 rounded mb-3">Download Now</button>
+                </a>
               </div>
             </div>
           </div>
